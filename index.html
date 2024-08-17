@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:wght@400;500;800&family=Roboto+Slab:wght@100..900&display=swap"
+    rel="stylesheet">
+  <title>Guess The Number</title>
+</head>
+
+<body>
+  <!-- Header Area -->
+  <header id="header_area" class="container">
+    <div id="again_btn">
+      <button id="again">Again</button>
+    </div>
+    <div class="top_info">
+      <p>< Between 1 to 20 ></p>
+    </div>
+  </header>
+
+  <!-- Hero Area -->
+  <section id="hero_area" class="container">
+    <div class="win"></div>
+    <div class="hide"></div>
+    <h2>Guess The Number 👍</h2>
+    <h3 id="guess">0</h3>
+  </section>
+
+  <!-- Messeage Area -->
+  <section id="message_info" class="container">
+    <p class="messeage">Guess Number Between 1 to 20 <img src="/img/run.gif" alt=""></p>
+  </section>
+
+  <!-- Main Body -->
+  <section id="main_body" class="container">
+    <div class="input_area">
+      <input type="text" id="input" placeholder="Number Between 1 to 20">
+      <input type="submit" value="Check" id="submit">
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

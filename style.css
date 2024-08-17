@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  font-weight: 400;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Header Area */
+#header_area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#header_area p {
+  font-weight: 800;
+}
+
+#again {
+  background: #eb3b5a;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  padding: 10px 35px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#again:hover {
+  background: #ff7979;
+}
+
+/* Hero Area */
+#hero_area {
+  padding: 45px 0 0;
+  text-align: center;
+  position: relative;
+}
+
+#hero_area h2 {
+  font-size: 30px;
+}
+
+#guess {
+  background: white;
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.win {
+  display: none;
+  background-image: url(img/win.png);
+  background-size: 50px 50px;
+  background-position: center;
+  width: 350px;
+  margin: 10px auto;
+  height: 65px;
+  background-repeat: no-repeat;
+}
+
+.hide {
+  position: absolute;
+  background-color: white;
+  background-image: url(img/high.png);
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  width: 200px;
+  height: 79px;
+  left: 50%;
+  margin-left: -100px;
+  bottom: 0;
+}
+
+/* Messeage Area */
+#message_info {
+  width: 100%;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+#message_info p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#main_body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Input Area */
+.input_area {
+  display: flex;
+  flex-basis: 48%;
+  margin-right: 4%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#submit {
+  background: #6ab04c;
+  font-family: "Roboto Slab", serif;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#submit:hover {
+  background: #badc58;
+}
+
+.status_area {
+  flex-basis: 48%;
+}
